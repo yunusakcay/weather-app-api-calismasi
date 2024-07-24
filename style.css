@@ -1,0 +1,70 @@
+
+#loading{
+    display: none;
+    
+}
+
+.container{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#loading > span{
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+
+.btn-danger{
+    border: 1px solid #686161;
+}
+
+
+.bg-default {
+    background: url(/image/default.png) no-repeat center / cover;
+}
+
+.bg-rainy{
+    background: url(/image/yağmurlu.jpg) no-repeat center / cover;
+}
+
+.bg-snowy{
+    background: url(/image/kar-yağışlı.jpg) no-repeat center / cover;
+}
+
+.bg-sunny{
+    background: url(/image/güneşli-açık.jpg) no-repeat center / cover;
+}
+
+.bg-cloudy{
+    background: url(/image/kapalı.jpg) no-repeat center / cover;
+}
+
+.bg-foggy{
+    background: url(/image/sisli.jpg) no-repeat center / cover;
+}
+
+.bg-partly-cloudy{
+    background: url(/image/parçalı-bulutlu.jpg) no-repeat center / cover;
+}
+
+.bg-rainfall{
+    background: url(/image/sağanak.jpg) no-repeat center / cover;
+
+}
+
+.cloudy{
+    color: #fff;
+}
+
+.sunny{
+    color: #000;
+}
